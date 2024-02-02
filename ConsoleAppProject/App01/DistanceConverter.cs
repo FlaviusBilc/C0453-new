@@ -3,12 +3,33 @@
 namespace ConsoleAppProject.App01
 {
     /// <summary>
-    /// Please describe the main features of this App
+    /// Convert from one unit of measurement to another
     /// </summary>
     /// <author>
-    /// Derek version 0.1
+    /// Flavius Bilc
     /// </author>
     public class DistanceConverter
     {
+        public void Run()
+        (
+
+        )
+        /// <summary>
+        /// Have the user input a distance in miles
+        /// </summary>
+        private void InputMiles()
+        (
+
+        )
+
+        private void CalculateFeet()
+        (
+
+        )
+
+        private void OutputFeet()
+        (
+
+        )
     }
 }

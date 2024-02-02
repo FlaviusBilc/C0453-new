@@ -1,11 +1,11 @@
 # C# Console Applications App01 to App05
 | Author | Details |
 | ---- | ---- |
-**Name**: | Student Name  |
-**Student ID**: | 12345678 |
+**Name**: |  Flavius Bilc  |
+**Student ID**: | 100183762 |
 **Course:** | Computing |
 **Module**: | CO453     |
-**Started**: | January 2021 |    
+**Started**: | January 2024 |    
 
 1. App01: Distance Converter
 2. App02: BMI Calculator

@@ -10,13 +10,16 @@ namespace ConsoleAppProject.App01
     /// </author>
     public class DistanceConverter
     {
+
+        private double miles;
+
+        private double feet;
+
         public void Run()
         (
 
         )
-        /// <summary>
-        /// Have the user input a distance in miles
-        /// </summary>
+
         private void InputMiles()
         (
 

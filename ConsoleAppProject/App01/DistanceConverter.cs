@@ -13,28 +13,56 @@ namespace ConsoleAppProject.App01
 
         private double miles;
         private double feet;
+        private double metres;
 
         /// <summary>
         /// 
         /// </summary>
         public void Run()
         {
+            MilesToFeet();
+            FeetToMiles();
+            MilesToMetres();
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// 
+
+
+        public void MilesToFeet()
+        {
             OutputHeading();
             InputMiles();
             CalculateFeet();
             OutputFeet();
         }
-        /// <summary>
-        /// 
-        /// </summary>
+
+        public void FeetToMiles()
+        {
+            OutputHeading();
+            InputFeet();
+            CalculateMiles();
+            OutputMiles();
+        }
+
+        public void MilesToMetres()
+        {
+            OutputHeading();
+            InputMiles();
+            CalculateMetres();
+            OutputMetres();
+        }
+
+
 
 
         private void OutputHeading()
         {
-            Console.WriteLine("-----------------------------");
+            Console.WriteLine("\n-----------------------------");
             Console.WriteLine("Miles to feet converter");
             Console.WriteLine("By Flavius Bilc");
-            Console.WriteLine("-----------------------------");
+            Console.WriteLine("-----------------------------\n");
         }
         private void InputMiles()
         {
@@ -56,6 +84,35 @@ namespace ConsoleAppProject.App01
         private void OutputFeet()
         {
             Console.WriteLine(miles + " Miles is " + feet + " feet!");
+        }
+
+
+        private void InputFeet()
+        {
+            Console.Write("Please enter the number of feet: ");
+            string value = Console.ReadLine();
+            feet = Convert.ToDouble(value);
+        }
+
+        private void CalculateMiles()
+        {
+            miles = feet / 5280;
+        }
+
+        public void OutputMiles()
+        {
+            Console.WriteLine(feet + " feet is " + miles + " miles!");
+        }
+
+
+        private void CalculateMetres()
+        {
+            metres = miles * 1609.34;
+        }
+
+        public void OutputMetres()
+        {
+            Console.WriteLine(miles + " miles is " + metres + " metres!");
         }
     }
 }

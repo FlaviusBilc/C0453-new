@@ -26,8 +26,12 @@ namespace ConsoleAppProject.App01
         /// <summary>
         /// 
         /// </summary>
+        /// 
+
+
         private void InputMiles()
         {
+            
             Console.Write("Please enter the number of miles: ");
             string value = Console.ReadLine();
             miles = Convert.ToDouble(value);

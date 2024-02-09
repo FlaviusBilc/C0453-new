@@ -33,6 +33,7 @@ namespace ConsoleAppProject.App01
         public void MilesToFeet()
         {
             OutputHeading();
+            Console.WriteLine("Converting Miles to Feet\n");
             InputMiles();
             CalculateFeet();
             OutputFeet();
@@ -41,6 +42,7 @@ namespace ConsoleAppProject.App01
         public void FeetToMiles()
         {
             OutputHeading();
+            Console.WriteLine("Converting Feet to Miles\n");
             InputFeet();
             CalculateMiles();
             OutputMiles();
@@ -49,6 +51,7 @@ namespace ConsoleAppProject.App01
         public void MilesToMetres()
         {
             OutputHeading();
+            Console.WriteLine("Converting Miles to Metres\n");
             InputMiles();
             CalculateMetres();
             OutputMetres();
@@ -60,10 +63,12 @@ namespace ConsoleAppProject.App01
         private void OutputHeading()
         {
             Console.WriteLine("\n-----------------------------");
-            Console.WriteLine("Miles to feet converter");
-            Console.WriteLine("By Flavius Bilc");
+            Console.WriteLine("      Distance Converter");
+            Console.WriteLine("      By Flavius Bilc");
             Console.WriteLine("-----------------------------\n");
         }
+
+
         private void InputMiles()
         {
             

@@ -1,0 +1,10 @@
+#setting up the game
+WIDTH = 800
+HEIGHT = 600
+FPS = 60
+
+# player settings
+PLAYER_START_X = 200
+PLAYER_START_Y = 200
+PLAYER_SIZE = 2.5
+PLAYER_SPEED = 8
